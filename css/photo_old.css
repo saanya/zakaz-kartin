@@ -1,0 +1,104 @@
+/* 
+    Document   : photo
+    Created on : 11 груд 2012, 10:13:05
+    Author     : WSUSER003
+    Description:
+        Purpose of the stylesheet follows.
+*/
+html,body {
+    height:100%; 
+    position:relative;
+}
+
+
+root { 
+    display: block;
+}
+
+.container{
+    height: 100%;
+    min-width: 960px;
+    min-height: 100%;
+    position: relative;
+}
+
+#photoTable {
+    margin: 0 auto;
+    /*width: 80%;*/
+    border-collapse: separate;
+    border-spacing: 20px 10px;
+}
+#photoTable tr{
+    
+    
+}
+
+#photoTable td{
+    padding: 5px;
+    border: 1px solid #BBBBBB;
+    
+}
+
+#footer{
+    height: 20px;
+    border-top:1px solid #EEEEEE;
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    /*position:fixed;*/
+    bottom:0;
+
+    /*right: 50%;*/
+    
+}
+
+.addthis_toolbox{
+    /*float: right;*/
+    /*margin-right: 40px;*/
+    /*margin-left: 50px;*/
+    margin-top: 5px;
+}
+
+#photoTable td img:hover{
+    -moz-box-shadow: 0px 0px 7px #000;
+    -webkit-box-shadow: 0px 0px 7px #000;
+    box-shadow: 0px 0px 7px #000;
+    
+}
+
+#tableOrder{
+    width: 100%;
+    margin: 0 auto;
+}
+
+#tableOrder td:first-child{
+    width: 24%;
+}
+
+#tableOrder textarea{width: 97%; height: 80px;;margin-bottom: 0px;}
+
+.error{
+    -moz-box-shadow: 0px 0px 5px #e80c0c !important;
+    -webkit-box-shadow: 0px 0px 5px #e80c0c  !important;
+    box-shadow: 0px 0px 5px #e80c0c  !important;
+}
+.success{
+    -moz-box-shadow: 0px 0px 5px #31e80c  !important;
+    -webkit-box-shadow: 0px 0px 5px #31e80c  !important;
+    box-shadow: 0px 0px 5px #31e80c  !important;
+}
+
+#sendForm{width: 195px;}
+
+#nameUser, #mail , #skype{width: 50%;}
+
+#sendSuccess {display: none;}
+
+#tableContact td{
+    vertical-align: middle;
+}
+
+
+#fileupload {margin: 0;}
+#fileupload small {text-align: center ; display: block;}
+#tableContact pre{ margin: 0 ; width: 70%;}
